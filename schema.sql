@@ -2,4 +2,4 @@
 
 create database vet_clinic;
 
-create table animals (id integer, name varchar, date_of_birth date, escape_attempts integer, neutered boolean, weight_kg decimal);
+create table animals (id integer NOT NULL, name varchar NOT NULL, date_of_birth date NOT NULL, escape_attempts integer NOT NULL, neutered boolean NOT NULL, weight_kg decimal NOT NULL);
