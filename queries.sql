@@ -21,3 +21,6 @@ UPDATE animals SET species = 'pokemon' WHERE species NOT IN ('digimon');
 --  calculations
 SELECT COUNT(*) FROM animals;
 SELECT COUNT(*) FROM animals WHERE escape_attempts =0;
+SELECT AVG(weight_kg) FROM animals;
+SELECT MAX(escape_attempts),neutered FROM animals GROUP BY neutered;
+SELECT MAX(weight_kg),MIN(weight_kg) FROM animals;
