@@ -16,3 +16,4 @@ UPDATE animals SET species = 'pokemon' WHERE species NOT IN ('digimon');
  SAVEPOINT SPP;
  UPDATE animals SET weight_kg = weight_kg-1;
  ROLLBACK TO SAVEPOINT SPP;
+ UPDATE animals SET weight_kg = weight_kg*-1 WHERE weight_kg<0;
