@@ -13,3 +13,6 @@ UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon%';
 UPDATE animals SET species = 'pokemon' WHERE species NOT IN ('digimon');
  DELETE FROM animals;
  DELETE FROM animals WHERE date_of_birth > '2022-01-01';
+ SAVEPOINT SPP;
+ UPDATE animals SET weight_kg = weight_kg-1;
+ ROLLBACK TO SAVEPOINT SPP;
