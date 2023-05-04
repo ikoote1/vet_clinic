@@ -7,7 +7,6 @@ INSERT INTO animals VALUES (5,'Charmander','2020/08/02',0,FALSE,-11),(6,'Plantmo
 INSERT INTO owners (name,age) VALUES ('Sam Smith',34),('Jennifer Orwell',19),('Bob',45),('Melody Pond',77),('Dean Winchester',14),('Jodie Whittaker',38);
  INSERT INTO species (name) VALUES ('Pokemon'),('Digimon');
 UPDATE animals SET species_id = 2 WHERE name LIKE '%mon%';
-
  UPDATE animals SET owner_id = 1 WHERE name='Agumon';
 UPDATE animals SET owner_id = 2 WHERE (name='Gabumon') OR (name='Pikachu')
  UPDATE animals SET owner_id=3 WHERE (name='Devimon') OR (name='Plantmon');
