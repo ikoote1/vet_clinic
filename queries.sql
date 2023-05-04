@@ -27,4 +27,4 @@ SELECT MAX(weight_kg),MIN(weight_kg) FROM animals;
 SELECT AVG(escape_attempts) FROM animals WHERE date_of_birth between '1990-12-31' AND '2000-01-01';
 
 -- foreign key and JOIN
-UPDATE animals SET species_id = 2 WHERE name LIKE '%mon%';
+
