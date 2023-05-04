@@ -29,3 +29,4 @@ SELECT AVG(escape_attempts) FROM animals WHERE date_of_birth between '1990-12-31
 -- foreign key and JOIN
  SELECT animals.name,date_of_birth,weight_kg FROM animals JOIN owners ON owners.id = animals.owner_id WHERE owners.name ='Melody Pond';
  SELECT animals.name,date_of_birth,weight_kg,species.name FROM animals JOIN species ON species.id = animals.species_id WHERE species.name ='Pokemon';
+ SELECT * FROM animals FULL JOIN owners ON owners.id = animals.owner_id;
