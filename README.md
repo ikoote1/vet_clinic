@@ -29,26 +29,26 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [VET_CLINIC] <a name="about-project"></a>
 
 
 **[Vet_clinic]** is is a database for storing data about different animals.
 
 ## 🛠 Built With <a name="SQL">PortsgreSQL</a>
 
-### Tech Stack <a name="tech-stack">Github</a>
+###<a name="tech-stack">Tech Used</a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Local Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li>Localserver</li>
   </ul>
 </details>
 
@@ -75,9 +75,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link will be add soon](#)
+- Project will not be deployed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
