@@ -15,6 +15,7 @@ CREATE TABLE species (id INT GENERATED ALWAYS AS IDENTITY, name VARCHAR(45) NOT 
 
 --    JOIN and RELATIONSHIPS
 CREATE TABLE vets (ID int GENERATED ALWAYS AS INDENITY, name VARCHAR NOT NULL, age INT NOT NULL, date_of_graduation date NOT NULL, PRIMARY KEY(id) );
+CREATE TABLE specializations (vets_id BIGINT REFERENCES vets(id), species_id BIGINT REFERENCES species(id));
 -- Created table called specializations with many to many relationship with vets and species -- 
 CREATE TABLE specializations (
 vets_id BIGINT REFERENCES vets (id),
