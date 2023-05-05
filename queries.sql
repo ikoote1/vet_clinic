@@ -60,7 +60,7 @@ SELECT * FROM animals JOIN visits ON visits.animals_id = animals.id WHERE vets_i
 -- How many visits were with a vet that did not specialize in that animal's species?
 SELECT vets.name, COUNT(visits.animals_id) 
 FROM visits JOIN vets ON vets.id = visits.vets_id 
-WHERE vets_id = '2' 
+WHERE vets_id = 2 
 GROUP BY vets.name;
 
 -- What specialty should Maisy Smith consider getting? Look for the species she gets the most.
