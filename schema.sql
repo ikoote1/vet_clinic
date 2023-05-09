@@ -17,3 +17,4 @@ CREATE TABLE species (id INT GENERATED ALWAYS AS IDENTITY, name VARCHAR(45) NOT 
 CREATE TABLE vets (ID int GENERATED ALWAYS AS INDENITY, name VARCHAR NOT NULL, age INT NOT NULL, date_of_graduation date NOT NULL, PRIMARY KEY(id) );
 CREATE TABLE specializations (vets_id BIGINT REFERENCES vets(id), species_id BIGINT REFERENCES species(id));
 CREATE TABLE visits(animals_id BIGINT REFERENCES animals(id), vets_id BIGINT REFERENCES vets(id), date_of_visit DATE NOT NULL);
+
