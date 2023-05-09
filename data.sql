@@ -42,3 +42,6 @@ INSERT INTO visits (animals_id, vets_id, date_of_visit) SELECT * FROM (SELECT id
 
 /* Insert new data into owners table */
 insert into owners (name, email) select 'Owner ' || generate_series(1,2500000), 'owner_' || generate_series(1,2500000) || '@mail.com';
+
+/* Add ndex for visits table */
+CREATE INDEX idx_animals_id ON visits (animals_id);
