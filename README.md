@@ -134,6 +134,10 @@ You can deploy this project using:
 - GitHub: [@githubhandle](https://github.com/ikoote1/)
 - Twitter: [@twitterhandle](https://twitter.com/ikootepreim1)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ikooterasuli/)
+👤 **Muhammad Usman Aslam**
+
+- GitHub: [@githubhandle](https://github.com/MuhammadUsmanAslam/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-usman-aslam/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
