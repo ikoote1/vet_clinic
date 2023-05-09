@@ -70,3 +70,9 @@ FROM animals JOIN visits ON animals.id = visits.animals_id JOIN vets ON vets.id 
  GROUP BY species.name 
  ORDER BY COUNT(animals.species_id) DESC
  LIMIT 1;
+
+
+-- normalization and index
+SELECT COUNT(*) FROM visits where animal_id = 4;
+SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
