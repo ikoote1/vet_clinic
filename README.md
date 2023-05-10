@@ -63,8 +63,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[TABLES]** This contains all the fields and records on animals.
 - **[COLUMNS]** This contains all the field data about the animals.
 - **[ROWS]** This caontains all the records of the animals.
@@ -135,14 +133,17 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/ikootepreim1)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ikooterasuli/)
 
+👤 **Muhammad Usman Aslam**
+
+- GitHub: [@githubhandle](https://github.com/MuhammadUsmanAslam/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-usman-aslam/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Add primary Keys]**
 - [ ] **[Relations Tables]**
