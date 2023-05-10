@@ -23,7 +23,10 @@ ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 /* Add ndex for tables */
 CREATE INDEX idx_animals_id ON visits (animals_id);
+CREATE INDEX idx_vets_id ON visits (vets_id);
 CREATE INDEX idx_owner_id ON animals (owner_id);
 CREATE INDEX idx_species_id ON animals (species_id);
 CREATE INDEX idx_vets_id ON specializations (vets_id);
 CREATE INDEX idx_species_id ON specializations (species_id);
+CREATE INDEX idx_name ON owners (name);
+CREATE INDEX idx_emails ON owners (email);
