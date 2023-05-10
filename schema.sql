@@ -18,6 +18,9 @@ CREATE TABLE vets (ID int GENERATED ALWAYS AS INDENITY, name VARCHAR NOT NULL, a
 CREATE TABLE specializations (vets_id BIGINT REFERENCES vets(id), species_id BIGINT REFERENCES species(id));
 CREATE TABLE visits(animals_id BIGINT REFERENCES animals(id), vets_id BIGINT REFERENCES vets(id), date_of_visit DATE NOT NULL);
 
+-- Nomalization and indexes
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
 /* Add ndex for tables */
 CREATE INDEX idx_animals_id ON visits (animals_id);
 CREATE INDEX idx_owner_id ON animals (owner_id);
