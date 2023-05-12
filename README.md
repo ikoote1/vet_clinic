@@ -71,7 +71,7 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a href="[schema-diagram](https://dbdiagram.io/d/645b3af2dca9fb07c4d029ca)">schema-diagram</a>
 
 - Project will not be deployed.
 
