@@ -71,9 +71,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a href="[schema-diagram](https://dbdiagram.io/d/645b3af2dca9fb07c4d029ca)">schema-diagram</a>
+## 🚀 Live Demo <a></a>
 
 - Project will not be deployed.
+-  Schema-diagram [Schema-diagram](https://dbdiagram.io/d/645b3af2dca9fb07c4d029ca)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
